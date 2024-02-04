@@ -1,0 +1,46 @@
+.offerDiv {
+    position: relative;
+}
+
+.offerText{
+
+    text-align: center;
+    padding: 20px;
+
+
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    background-color: antiquewhite;
+    
+
+  }
+
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+
+  .cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 2rem;
+  }
+
+  @media (min-width: 600px) {
+    .cards { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (min-width: 900px) {
+    .cards { grid-template-columns: repeat(3, 1fr); }
+  }
+
