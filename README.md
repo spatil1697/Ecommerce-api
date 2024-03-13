@@ -15,7 +15,7 @@ These APIs are tested using Postman, and some of them are consumed in the fronte
 
 ### User Register API:  
 * Users can register on the application using their username, email and password. 
-* The backend generates a hash of the password and stores it in the database using CryptoJS.
+* The backend generates a hash of the password using CryptoJS and stores it in the database.
 
 ### Login API:
 * Users can log in using their credentials, with backend verification using JWT authentication. 
