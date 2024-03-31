@@ -9,6 +9,7 @@ Developed a custom API using Node.js.
 * MongoDB
 * mongoose
 * JWT tokens
+* React
 
 ## ✨ Functionalities
 These APIs are tested using Postman, and some of them are consumed in the frontend for testing purposes. Here is what each API is responsible for:
